@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Elie Shabitai Portfolio</title>
+   <link rel="stylesheet" href="./css/portfolio.css" />
+   <script src="./js/portfolio.js" defer></script>
+   <link rel="icon" href="./img/Personal Logos variants-01.png" />
+ </head>
+ <style>
+* {
+ box-sizing: border-box;
+}
+
+
+/* body {
+ margin: 0;
+ font-family: Arial;
+}
+
+
+.header {
+ text-align: center;
+ padding: 32px;
+} */
+
+
+.row {
+ display: -ms-flexbox; /* IE10 */
+ display: flex;
+ -ms-flex-wrap: wrap; /* IE10 */
+ flex-wrap: wrap;
+ padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+.column {
+ -ms-flex: 25%; /* IE10 */
+ flex: 25%;
+ max-width: 25%;
+ padding: 0 4px;
+}
+
+
+.column img {
+ margin-top: 8px;
+ vertical-align: middle;
+ width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+ .column {
+   -ms-flex: 50%;
+   flex: 50%;
+   max-width: 50%;
+ }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+ .column {
+   -ms-flex: 100%;
+   flex: 100%;
+   max-width: 100%;
+ }
+}
+</style>
+
+
+ <body>
+   <div id="header">
+     <div class="logo">
+       <a href="./index.html"><img src="./img/Personal_Logos_variants-01-removebg-preview.png"alt="Trim Master Logo"class="logo"/></a>
+       <!-- <img
+         src="./img/Personal_Logos_variants-01-removebg-preview.png"
+         alt="logo"
+       /> -->
+     </div>
+     <div class="nav">
+       <nav>
+         <ul>
+           <!-- <li><a href="./portfolio2.html">Home</a></li> -->
+           <li><a href="#about">About</a></li>
+           <li><a href="#portfolio">Portfolio</a></li>
+           <li><a href="#contact">Contact</a></li>
+         </ul>
+       </nav>
+     </div>
+   </div>
+
+
+   <main>
+     </section>
+     <section id="home" class="fade-in">
+       <div class="tagline">
+         <h1>Design creates <span style="color:#225fad;font-family:'Lato', sans-serif;">Culture,</span></h1>
+         <h1>Culture shapes <span style="color:#225fad;font-family:'Lato', sans-serif;">Values,</span></h1>
+         <h1>Values determine <span style="color:#225fad;font-family:'Lato', sans-serif;">the Future.</span></h1>
+         <p>- Robert L. Peters</p>
+       </div>
+     </section>
+      <section id="home" class="fade-in">
+     <div id="about">
+       <div class="container">
+         <div class="row">
+           <div class="about-col-1">
+             <img src="./img/IMG_2889.jpg" alt="about" />
+           </div>
+           <div class="about-col-2">
+             <h1 class="intro">About <span style="color:#225fad;font-family:'Lato', sans-serif;">Me</span></h1>
+             <p>
+               Hi there! I'm Elie, an enthusiastic graphic designer with a
+               focus on Multimedia Integration, currently studying at Vanier
+               College. My dedication lies in crafting engaging visual
+               experiences that leave a lasting impression. What distinguishes
+               me is my natural talent for generating innovative and practical
+               ideas throughout the design journey, resulting in creations that
+               are not only visually striking but also strategically impactful.
+               I strongly believe in the transformative power of design to
+               inspire connections and deeply influence people's lives.
+               Together, let's embark on a journey to bring dreams to life,
+               starting from conceptualization to realization!
+             </p>
+             <div class="tab-titles">
+               <p class="tab-links active-link" onclick="opentab('skills')">
+                 Skills
+               </p>
+               </p> -->
+               <p class="tab-links" onclick="opentab('education')">
+                 Education
+               </p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+               <ul>
+
+           <ul> 
+           
+           <img src="./img/illustrator.png" alt="" class="media"
+           />
+           <img src="./img/indesign.png" alt="" class="media"
+           />
+           
+           </ul>
+          
+           <ul> 
+           
+           <img src="./img/photoshop.png" alt="" class="media"
+           />
+           <img src="./img/premiere pro.png" alt="" class="media"
+           />
+           
+           </ul>
+
+           <ul> 
+           
+           <img src="./img/after effects.png" alt="" class="media"
+           />
+           <img src="./img/xd.webp" alt="" class="media"
+           />
+           
+           </ul>
+
+            <ul> 
+           
+           <img src="./img/vs code.png" alt="" class="media"
+           />
+           <img src="./img/instagram.png" alt="" class="media"
+           />
+           
+           </ul>
+
+            <ul> 
+           
+           <img src="./img/g_suite-removebg-preview.png" alt="" class="media"
+           />
+           <img src="./img/microsoft.png" alt="" class="media"
+           />
+           
+           </ul>
+         </figure>
+                 <li>
+            
+               </ul>
+             </div>
+        
+             <div class="tab-contents" id="education">
+               <ul>
+                 <li>
+                   <span>2021-2024</span><br />DEC in Micromedia from Vanier
+                   College
+                 </li>
+                 <li>
+                   <span>2016-2021</span><br />High School Diploma from
+                  Herzliah High School
+                 </li>
+                
+               </ul>
+             </div>
+             <!-- <a href="link-to-cv.pdf" target="_blank">Download CV (PDF)</a>
+             <a href="link-to-portfolio.pdf" target="_blank">View Portfolio</a> -->
+           </div>
+           </section>
+           <div class="tab-titles">
+              
+         </div>
+       </div>
+     </div>
+      
+          <section id="portfolio" class="fade-in">
+       <div class="portfolio">
+         <h1 class="intro"><span style="color:#225fad;font-family:'Lato', sans-serif;">My</span> Portfolio</h1>
+         </section>
+         <div class="gallery">
+            <!-- <h1 class="intro">My Portfolio</h1> -->
+            <section id="portfolio" class="fade-in">
+           <div class="image">
+              <!-- <h1 class="intro">My Portfolio</h1> -->
+               <p><a href=""><img class="bg"
+                           src="./img/book set.png"></a></p>
+               <div class="overlay">
+                   <div class="title">Title: Book Set</div>
+                   <p class="description">Type of work: Book Design</p>
+                   <p class="description">Project: Design book covers for three separate classic books titles (not a
+part of series or written by the same author). Apply a consistent and
+recognizable style across all original concepts. Software used: Adobe
+Indesign, Illustrator & Photoshop.</p>
+                   <!-- <a class="btn" href="#">More</a> -->
+               </div>
+           </div>
+           </section>
+           <section id="portfolio" class="fade-in">
+           <div class="image">
+               <p><a href=""><img class="bg" src="./img/ELIE_SHABITAI_MAGAZINE COVER.png"></a></p>
+               <div class="overlay">
+                   <div class="title">Title: Magazine Cover</div>
+                   <p class="description">Type of work: Editorial Design</p>
+                    <p class="description">Project: Developpe an idea for a publication and creating
+a sample cover involves designing essential
+components such as the publication name,
+masthead (wordmark), cover image, dateline,
+coverlines, plugs, etc. Software used: Adobe
+Indesign & Photoshop.</p>
+                   <!-- <a class="btn" href="#">More</a> -->
+               </div>
+           </div>
+           </section>
+           <section id="portfolio" class="fade-in">
+           <div class="image">
+               <p><a href=""><img class="bg" src="./img/Childrens book - Elie Shabitai.png"></a></p>
+               <div class="overlay">
+                   <div class="title">Title: Children's Book Cover</div>
+                   <p class="description">Type of work: Book Design & Brochure</p>
+                    <p class="description">Project: Design an approximately 8-page digital children’s book, poetry (slam), or
+comic book. Software used: Adobe Indesign, Illustrator & Photoshop.</p>
+                   <!-- <a class="btn" href="#">More</a> -->
+               </div>
+           </div>
+           </section>
+
+
+       </div>
+
+
+
+
+       <div class="gallery">
+         <section id="portfolio" class="fade-in">
+           <div class="image">
+               <p><a href=""><img class="bg" src="./img/children book.png"></a></p>
+               <div class="overlay">
+                   <div class="title">Title: Children's Book Cover</div>
+                   <p class="description">Type of work: Book Design</p>
+                   <p class="description">Project: Design a children’s storybook cover for a fictional book. Include a title, author,
+publisher logo, ISBN code, and optional elements like testimonials, reviews, or a book
+summary. Use your name as the “Author” or “Illustrator” of the book. Software used:
+Adobe Photoshop.</p>
+                   <!-- <a class="btn" href="#">More</a> -->
+               </div>
+           </div>
+           </section>
+           <section id="portfolio" class="fade-in">
+           <div class="image">
+               <p><a href=""><img class="bg" src="./img/Isometric Project.png"></a></p>
+               <div class="overlay">
+                   <div class="title">Title: Isometric Room</div>
+                   <p class="description">Type of work: Isometric Illustration</p>
+                    <p class="description">Project: Creating an isometric illustration requires skillful use of color tints,
+shades, and gradients, crucial elements that greatly enhance the 3D
+perspective effect. Software used: Adobe Illustrator.</p>
+                   <!-- <a class="btn" href="#">More</a> -->
+               </div>
+           </div>
+           </section>
+         
+
+
+       </div>
+       </div>
+       </section>
+
+
+
+
+   </div>
+
+
+     <section id="contact" class="fade-in">
+       <div class="contact">
+         <section id="contacth2">
+         <h2>Let's craft <span style="color:#225fad;font-family:'Lato', sans-serif;">Dreams</span> together,</h2>
+         <h2 class="infotag">from <span style="color:#225fad;font-family:'Lato', sans-serif;">Start</span> to <span style="color:#225fad;font-family:'Lato', sans-serif;">Life!</span></h2>
+         </section>
+         <h1 class="intro"><span style="color:#225fad;font-family:'Lato', sans-serif;">Con</span>tact</h1>
+         <p>Phone: +1 514-442-2135</p>
+         <p>Email: elie.shabitai@gmail.com</p>
+         <p>Instagram: @elie.shabitai</p>
+         <ul>
+          <li><a href="./img/Elie_Shabitai_Resume (1).pdf" target="_blank">Download CV (PDF)</a></li>
+        <li> <a href="./img/Portfolio good.pdf" target="_blank">View Portfolio</a></li>
+         </ul>
+       </div>
+     </section>
+   </main>
+   <footer>Elie Shabitai &copy Copyright 2023</footer>
+ </body>
+</html>
+
+
+
